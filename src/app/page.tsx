@@ -3,7 +3,7 @@ import BanhBaoActions, { YummyButton, OrderButton } from "@/components/Interacti
 
 export default function Home() {
   return (
-    <main className="min-h-screen pb-20 selection:bg-primary-light selection:text-primary-dark">
+    <main className="min-h-screen pb-20 selection:bg-primary-light selection:text-primary-dark overflow-x-hidden">
       <BanhBaoActions />
       
       {/* Navbar */}
